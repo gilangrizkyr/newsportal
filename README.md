@@ -64,3 +64,56 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# News Portal
+
+This is a **News Portal** application built using the **Laravel** framework. The project allows users to read, manage, and interact with news articles in a clean and user-friendly interface. It provides essential features such as article management, user authentication, and more.
+
+This project is actively under development, and new features are being added progressively.
+
+## Table of Contents
+
+- [About](#about)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+
+The **News Portal** is a web application for managing and displaying news articles. It allows users to view articles, and admins to add, edit, and delete news content. The backend is built using **Laravel**, a PHP framework known for its elegant syntax and robust features.
+
+### Key Features:
+- User authentication and role management
+- CRUD operations for news articles (Create, Read, Update, Delete)
+- User-friendly interface for both admins and regular users
+- Built with Laravel's best practices for security, routing, and database management
+
+This project is a work in progress, and additional features like search functionality, article categorization, and comment sections are planned for future releases.
+
+## Technologies
+
+The following technologies are used in this project:
+
+- **PHP** - The programming language used.
+- **Laravel** - PHP framework for backend development.
+- **MySQL** - Database management system for storing news articles and user data.
+- **Blade** - Laravel's templating engine for rendering views.
+- **Composer** - Dependency manager for PHP.
+- **Bootstrap** - Frontend framework for responsive design.
+
+## Setup
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/gilangrizkyr/newsportal.git
+   cd newsportal
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+   php artisan serve
+The application should now be available at http://localhost:8000.
+
